@@ -6,7 +6,10 @@ class people:
         print("fname = ",self.fname,"\nlname = ",self.lname)
 
 class student(people):
-    pass
+    def __init__(self, fname, lname, address):
+        super().__init__(fname,lname)
+        self.address = address
 
-s1 = student("vidhi","nagar")
+s1 = student("vidhi","nagar","odhav")
 s1.display()
+print("address = ",s1.address)

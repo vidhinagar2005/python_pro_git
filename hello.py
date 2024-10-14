@@ -7,3 +7,5 @@ print("new add")
 
 print("vidhi nagar")
 print("dost")
+
+print("nagar")
